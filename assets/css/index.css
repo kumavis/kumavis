@@ -3,8 +3,8 @@
 */
 
 html {
-  background: black url('../img/tree-of-life.jpg') no-repeat center bottom fixed;
-  /*background: orange;*/
+  background: black url('../img/tree-of-life.jpg') no-repeat center top fixed;
+  background-size: cover;
   height: 100%;
   overflow: hidden;
 }
@@ -92,6 +92,11 @@ a {
 */
 
 @media (max-width: 600px) {
+
+  html {
+    background: black url('../img/tree-of-life.jpg') no-repeat center bottom fixed;
+    background-size: auto;
+  }
 
   .headshot-container {
     min-width: 120px;
