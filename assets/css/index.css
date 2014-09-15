@@ -53,6 +53,11 @@ a {
 }
 
 .headshot-container {
+  min-width: 230px;
+  padding-bottom: 60px;
+}
+
+.headshot-content {
   margin: 0 auto;
   width: 230px;
 }
