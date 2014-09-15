@@ -3,8 +3,7 @@
 */
 
 html {
-  /*background: white url('../img/clouds-repeating.png') repeat center center fixed;*/
-  background: black url('../img/tree-of-life.jpg') no-repeat center center fixed;
+  background: black url('../img/tree-of-life.jpg') no-repeat center bottom fixed;
   /*background: orange;*/
   height: 100%;
   overflow: hidden;
@@ -62,6 +61,11 @@ a {
   width: 230px;
 }
 
+.headshot-content img {
+  width: 230px;
+  height: 230px;
+}
+
 /*
 // -- retina mbp high res --
 */
@@ -92,6 +96,20 @@ a {
 */
 
 @media (max-width: 600px) {
+
+  .headshot-container {
+    min-width: 120px;
+    padding-bottom: 30px;
+  }
+
+  .headshot-content {
+    width: 120px;
+  }
+
+  .headshot-content img {
+    width: 120px;
+    height: 120px;
+  }
 
 }
 
