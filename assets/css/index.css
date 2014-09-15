@@ -1,0 +1,96 @@
+/*
+// -- COLORS --
+*/
+
+html {
+  background: white url('../img/clouds-repeating.png') repeat center center fixed;
+  /*background: black url('../img/tilt-shift-galaxy-1.jpg') no-repeat center center fixed;*/
+  /*background: orange;*/
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: #526066;
+  height:100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*
+ * -- BANNER --
+ * The top banner with the headings. By using a combination
+ * of `display: table;` and `display: table-cell;`, we can
+ * vertically center the text.
+ */
+
+.banner {
+
+}
+
+.banner-wrapper {
+  text-align: center;
+  height: 850px;
+  width: 100%;
+  display: table;
+}
+
+.banner-wrapper > .banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+
+/*
+// -- retina mbp high res --
+*/
+
+@media (max-width: 1900px) {
+
+}
+
+/*
+// -- iPAD 1 HORIZONTAL --
+*/
+
+@media (max-width: 1100px) {
+
+}
+
+
+/*
+// -- iPAD 1 VERTICAL --
+*/
+
+@media (max-width: 800px) {
+
+}
+
+/*
+// -- iPHONE 5s HORIZONTAL --
+*/
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-height: 400px) {
+
+}
+
+/*
+// -- iPHONE 5s VERTICAL --
+*/
+
+@media(max-width: 400px) {
+
+}
