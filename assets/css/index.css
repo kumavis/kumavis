@@ -3,8 +3,8 @@
 */
 
 html {
-  background: white url('../img/clouds-repeating.png') repeat center center fixed;
-  /*background: black url('../img/tilt-shift-galaxy-1.jpg') no-repeat center center fixed;*/
+  /*background: white url('../img/clouds-repeating.png') repeat center center fixed;*/
+  background: black url('../img/tree-of-life.jpg') no-repeat center center fixed;
   /*background: orange;*/
   height: 100%;
   overflow: hidden;
@@ -31,12 +31,15 @@ a {
  */
 
 .banner {
-
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  -webkit-mask-image: url('../img/tree-of-life.jpg');
+  mask-image: url('../img/tree-of-life.jpg');
 }
 
 .banner-wrapper {
   text-align: center;
-  height: 850px;
+  height: 100%;
   width: 100%;
   display: table;
 }
@@ -49,6 +52,10 @@ a {
   font-weight: 500;
 }
 
+.headshot-container {
+  margin: 0 auto;
+  width: 230px;
+}
 
 /*
 // -- retina mbp high res --
